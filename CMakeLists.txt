@@ -15,3 +15,5 @@ add_executable (ex3 ex3.cpp
         BankAccount.cpp BankAccounts.cpp
         ex1.cpp
 )
+
+add_executable(ex4 ex4.cpp)
