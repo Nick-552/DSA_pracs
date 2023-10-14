@@ -74,6 +74,78 @@ build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
   TARGET_PDB = main.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ex1
+
+
+#############################################
+# Order-only phony target for ex1
+
+build cmake_object_order_depends_target_ex1: phony || CMakeFiles/ex1.dir
+
+build CMakeFiles/ex1.dir/ex1.cpp.obj: CXX_COMPILER__ex1_unscanned_Debug C$:/Users/Nick/CLionProjects/DSA-pracs/ex1.cpp || cmake_object_order_depends_target_ex1
+  DEP_FILE = CMakeFiles\ex1.dir\ex1.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex1
+
+
+#############################################
+# Link the executable ex1.exe
+
+build ex1.exe: CXX_EXECUTABLE_LINKER__ex1_Debug CMakeFiles/ex1.dir/ex1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ex1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ex1.exe
+  TARGET_IMPLIB = libex1.dll.a
+  TARGET_PDB = ex1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex2
+
+
+#############################################
+# Order-only phony target for ex2
+
+build cmake_object_order_depends_target_ex2: phony || CMakeFiles/ex2.dir
+
+build CMakeFiles/ex2.dir/ex2.cpp.obj: CXX_COMPILER__ex2_unscanned_Debug C$:/Users/Nick/CLionProjects/DSA-pracs/ex2.cpp || cmake_object_order_depends_target_ex2
+  DEP_FILE = CMakeFiles\ex2.dir\ex2.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ex2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex2.dir
+
+build CMakeFiles/ex2.dir/Note.cpp.obj: CXX_COMPILER__ex2_unscanned_Debug C$:/Users/Nick/CLionProjects/DSA-pracs/Note.cpp || cmake_object_order_depends_target_ex2
+  DEP_FILE = CMakeFiles\ex2.dir\Note.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ex2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex2
+
+
+#############################################
+# Link the executable ex2.exe
+
+build ex2.exe: CXX_EXECUTABLE_LINKER__ex2_Debug CMakeFiles/ex2.dir/ex2.cpp.obj CMakeFiles/ex2.dir/Note.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ex2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ex2.exe
+  TARGET_IMPLIB = libex2.dll.a
+  TARGET_PDB = ex2.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ex3
 
 
@@ -124,111 +196,6 @@ build ex3.exe: CXX_EXECUTABLE_LINKER__ex3_Debug CMakeFiles/ex3.dir/ex3.cpp.obj C
   TARGET_IMPLIB = libex3.dll.a
   TARGET_PDB = ex3.exe.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target ex4
-
-
-#############################################
-# Order-only phony target for ex4
-
-build cmake_object_order_depends_target_ex4: phony || CMakeFiles/ex4.dir
-
-build CMakeFiles/ex4.dir/ex4.cpp.obj: CXX_COMPILER__ex4_unscanned_Debug C$:/Users/Nick/CLionProjects/DSA-pracs/ex4.cpp || cmake_object_order_depends_target_ex4
-  DEP_FILE = CMakeFiles\ex4.dir\ex4.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ex4.dir
-  OBJECT_FILE_DIR = CMakeFiles\ex4.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target ex4
-
-
-#############################################
-# Link the executable ex4.exe
-
-build ex4.exe: CXX_EXECUTABLE_LINKER__ex4_Debug CMakeFiles/ex4.dir/ex4.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ex4.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = ex4.exe
-  TARGET_IMPLIB = libex4.dll.a
-  TARGET_PDB = ex4.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target ex2
-
-
-#############################################
-# Order-only phony target for ex2
-
-build cmake_object_order_depends_target_ex2: phony || CMakeFiles/ex2.dir
-
-build CMakeFiles/ex2.dir/ex2.cpp.obj: CXX_COMPILER__ex2_unscanned_Debug C$:/Users/Nick/CLionProjects/DSA-pracs/ex2.cpp || cmake_object_order_depends_target_ex2
-  DEP_FILE = CMakeFiles\ex2.dir\ex2.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ex2.dir
-  OBJECT_FILE_DIR = CMakeFiles\ex2.dir
-
-build CMakeFiles/ex2.dir/Note.cpp.obj: CXX_COMPILER__ex2_unscanned_Debug C$:/Users/Nick/CLionProjects/DSA-pracs/Note.cpp || cmake_object_order_depends_target_ex2
-  DEP_FILE = CMakeFiles\ex2.dir\Note.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ex2.dir
-  OBJECT_FILE_DIR = CMakeFiles\ex2.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target ex2
-
-
-#############################################
-# Link the executable ex2.exe
-
-build ex2.exe: CXX_EXECUTABLE_LINKER__ex2_Debug CMakeFiles/ex2.dir/ex2.cpp.obj CMakeFiles/ex2.dir/Note.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ex2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = ex2.exe
-  TARGET_IMPLIB = libex2.dll.a
-  TARGET_PDB = ex2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target ex1
-
-
-#############################################
-# Order-only phony target for ex1
-
-build cmake_object_order_depends_target_ex1: phony || CMakeFiles/ex1.dir
-
-build CMakeFiles/ex1.dir/ex1.cpp.obj: CXX_COMPILER__ex1_unscanned_Debug C$:/Users/Nick/CLionProjects/DSA-pracs/ex1.cpp || cmake_object_order_depends_target_ex1
-  DEP_FILE = CMakeFiles\ex1.dir\ex1.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ex1.dir
-  OBJECT_FILE_DIR = CMakeFiles\ex1.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target ex1
-
-
-#############################################
-# Link the executable ex1.exe
-
-build ex1.exe: CXX_EXECUTABLE_LINKER__ex1_Debug CMakeFiles/ex1.dir/ex1.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ex1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = ex1.exe
-  TARGET_IMPLIB = libex1.dll.a
-  TARGET_PDB = ex1.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -261,8 +228,6 @@ build ex2: phony ex2.exe
 
 build ex3: phony ex3.exe
 
-build ex4: phony ex4.exe
-
 build main: phony main.exe
 
 # =============================================================================
@@ -273,7 +238,7 @@ build main: phony main.exe
 #############################################
 # Folder: C:/Users/Nick/CLionProjects/DSA-pracs/cmake-build-debug
 
-build all: phony main.exe ex3.exe ex4.exe ex2.exe ex1.exe
+build all: phony main.exe ex1.exe ex2.exe ex3.exe
 
 # =============================================================================
 # Built-in targets

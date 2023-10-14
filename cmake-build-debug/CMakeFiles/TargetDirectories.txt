@@ -1,7 +1,6 @@
 C:/Users/Nick/CLionProjects/DSA-pracs/cmake-build-debug/CMakeFiles/main.dir
-C:/Users/Nick/CLionProjects/DSA-pracs/cmake-build-debug/CMakeFiles/ex3.dir
-C:/Users/Nick/CLionProjects/DSA-pracs/cmake-build-debug/CMakeFiles/ex4.dir
-C:/Users/Nick/CLionProjects/DSA-pracs/cmake-build-debug/CMakeFiles/ex2.dir
 C:/Users/Nick/CLionProjects/DSA-pracs/cmake-build-debug/CMakeFiles/ex1.dir
+C:/Users/Nick/CLionProjects/DSA-pracs/cmake-build-debug/CMakeFiles/ex2.dir
+C:/Users/Nick/CLionProjects/DSA-pracs/cmake-build-debug/CMakeFiles/ex3.dir
 C:/Users/Nick/CLionProjects/DSA-pracs/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Nick/CLionProjects/DSA-pracs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
